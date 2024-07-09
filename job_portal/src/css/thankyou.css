@@ -11,25 +11,27 @@
   text-align:center;
   color:#333333;
   padding:0px 10px 10px;
+  margin-bottom: 20px;
 }
 .thankyou-wrapper p{
-  font:26px Arial, Helvetica, sans-serif;
+  font:30px Arial, Helvetica, sans-serif;
   text-align:center;
-  color:#333333;
+  color:#272626;
   padding:5px 10px 10px;
 }
 .thankyou-wrapper a{
   font:26px Arial, Helvetica, sans-serif;
   text-align:center;
-  color:#ffffff;
+  color:#080808;
   display:block;
   text-decoration:none;
   width:250px;
-  background:#E47425;
+  background:#664177;
   margin:10px auto 0px;
   padding:15px 20px 15px;
-  border-bottom:5px solid #F96700;
+  border-bottom:5px solid #180118;
 }
+
 .thankyou-wrapper a:hover{
   font:26px Arial, Helvetica, sans-serif;
   text-align:center;
@@ -37,8 +39,11 @@
   display:block;
   text-decoration:none;
   width:250px;
-  background:#F96700;
+  background:#66cca5;
   margin:10px auto 0px;
   padding:15px 20px 15px;
-  border-bottom:5px solid #F96700;
+  border-bottom:5px solid #013b25;
+}
+body{
+  background-color: #E47425;
 }

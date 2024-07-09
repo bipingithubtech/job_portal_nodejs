@@ -28,7 +28,7 @@ export default class userModel {
   }
 }
 
-var user = [];
+let user = [new userModel(1, "bipin", "joshi@gmail.com", 1234, 9012598116)];
 
 // import userModel from "../model/user.js";
 

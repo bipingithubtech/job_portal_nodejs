@@ -15,7 +15,7 @@
 .right{
     
     height: 297px;
-    box-shadow: 10px 10px rgb(128, 86, 167);
+    box-shadow: 10px 10px rgb(8, 1, 15);
     margin-top: 175px;
     
 }
@@ -24,8 +24,13 @@
 }
 H1{
     color: rgb(99, 1, 50);
-    font-weight: 200;
+    font-weight:bolder;
 }
 h4{
     margin-top: 15px;
+    text-transform: capitalize;
+}
+h3{
+    margin-top: 15px;
+    text-transform: capitalize;
 }

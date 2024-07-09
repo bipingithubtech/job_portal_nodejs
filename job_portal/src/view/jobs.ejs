@@ -10,7 +10,7 @@
 
 <style>
   body{
-    background-color: rgb(24, 1, 37);
+    background-color: rgb(191, 188, 233);
     margin: 0;
     padding: 0;
 }
@@ -28,7 +28,7 @@
     border-radius: 7px;
     margin-top: 10px;
     position: relative;
-    background-color: rgb(24, 1, 37);
+    background-color: rgb(6, 5, 29);
     color: rgb(250, 232, 242);
     border: 2px solid white;
 
@@ -61,7 +61,7 @@ h4{
     margin-left: 10px;
     background-color: rgb(158, 238, 169);
     border-radius: 5px;
-    color: rgb(4, 32, 56);
+    color: rgb(40, 4, 56);
     
 }
   .custom-navbar{
@@ -100,6 +100,12 @@ h4{
           </div>
         </div>
       </nav>
+
+      <% if (product){%>
+        <div class="alert alert-success" role="alert">
+          Login sucessfully!!
+        </div>
+     <% }%>
     <div class="first">
         
         <div class="inside">

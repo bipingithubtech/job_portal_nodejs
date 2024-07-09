@@ -8,6 +8,7 @@ const userController = new userControllers();
 
 userRouter.get("/", userController.getloginpage);
 userRouter.post("/", fromValidation, userController.registerUser);
+userRouter.get("/login", userController.directLoginPage);
 userRouter.post("/login", userController.postLogin);
 
 export default userRouter;
